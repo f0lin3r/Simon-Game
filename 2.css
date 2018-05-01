@@ -1,0 +1,86 @@
+body {
+	background-image: url('http://tatneft-chelny.ru/w/6/doski_derevyannyy_poverhnost_fon_tekstura_1920x1200.jpg');
+	background-repeat:  no-repeat;
+	background-size: 100% 1200px;
+}
+.btn-box{
+	margin-left: 20%;
+	margin-top: 10%;
+}
+.menu{
+	z-index: 10;
+    position: absolute;
+	background-color: #696969;
+	width:240px;
+	height:240px;
+	margin-left: 200px;
+	margin-top: 200px;
+	border-radius: 100%;
+	border: 15px solid black;
+	text-align: center;
+}
+.logo{
+	position: absolute;
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	margin-top: 10px;
+	height: 110px;
+	width: 90%;
+	font-size: 2.5em;
+	margin-left: 5%;
+	background-color: black;
+	color: white;
+	vertical-align: text-bottom;
+}
+.name{
+	margin-top: 25%;
+}
+.power , .start , .strict{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	margin-top: 55%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.start,.strict{
+	background-color: white;
+}
+.count{
+	margin-left: 39%;
+	margin-top: 2%;
+	width: 50px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	font-size: 2em;
+}
+ .btn-1 , .btn-2 , .btn-3 , .btn-4{
+	width: 300px;
+	height: 300px;
+	border: 15px solid black;
+	
+}
+.btn-12 , .btn-34{
+	z-index: 1;
+	position: absolute;
+	display: inline-flex;
+}
+.btn-34{
+	margin-top: 330px;
+}
+.btn-1{
+	background-color: green;
+	border-radius: 100% 0% 0% 0%;
+}
+.btn-2{
+	background-color: red;
+	border-radius: 0% 100% 0% 0%;
+}
+.btn-3{
+	background-color: yellow;
+	border-radius: 0% 0% 0% 100%;
+}
+.btn-4{
+	background-color: blue;
+	border-radius: 0% 0% 100% 0%;
+}
